@@ -19,7 +19,7 @@ Try {
     Write-Host " "
     Write-Host " "
     Write-Host " "
-}Catch {
+} Catch {
     clear
     Write-Warning "Your ID was not found. Please check again"
     Write-Warning "Are you Online or blocked by the Firewall or Internet Filter?"
