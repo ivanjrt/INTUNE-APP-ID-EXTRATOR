@@ -1,5 +1,5 @@
-# APPLE APP ID EXTRATOR
-``` Ruby
+# APPLE APP ID EXTRACTOR
+``` powershell
 Add-Type -AssemblyName Microsoft.VisualBasic
 $appleIdRaw = [Microsoft.VisualBasic.Interaction]::InputBox('Catalog:
     https://www.apple.com/app-store/', 'Apple ID Finder:', "Input full link for the Apple ID")
